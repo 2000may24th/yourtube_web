@@ -1,6 +1,8 @@
-
-
 window.addEventListener('DOMContentLoaded', event => {
+    // HTTPS 강제 적용
+    if (window.location.protocol !== 'https:') {
+        window.location.replace('https://' + window.location.hostname + window.location.pathname + window.location.search);
+    }
 
     const mainNav = document.body.querySelector('#mainNav');
     if (mainNav) {
