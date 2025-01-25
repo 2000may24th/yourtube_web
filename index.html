@@ -30,6 +30,7 @@
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#features">기능</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="#download">다운로드</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="#guideline">사용법</a></li>
                     </ul>
                     <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
                         <span class="d-flex align-items-center">
@@ -220,7 +221,7 @@
 
                     <!-- 공지사항을 열고 닫을 수 있는 팝업 -->
                     <details style="background-color: rgb(60, 60, 60); padding: 15px; border-radius: 5px; cursor: pointer; margin-top: 20px; width: 100%; ">
-                        <summary class="fs-7 text-light" style="font-weight: bold; color: white;">[⚠️공지] YourTube 베타 테스트 서비스 개시 관련(25.01.11)</summary>
+                        <summary class="fs-7 text-light" style="font-weight: bold; color: white;">[⚠️공지] YourTube 베타 테스트 서비스 개시 관련(25.01.25)</summary>
                         <div>
                             <br>
                             <p style="color: lightgray; font-size: 0.875rem; line-height: 1;"> 안녕하세요. Team YourTube입니다. </p>
@@ -232,10 +233,41 @@
             </div>
         </section>
 
+        <!-- Usage section -->
+        <section style="background-color: white; padding: 80px 0;" id="guideline">
+            <div class="container px-5">
+                <h2 class="text-center font-alt mb-4" style="font-size: 2.5rem; color: transparent; background: linear-gradient(to right, #a01be1, #ea4550); -webkit-background-clip: text;">
+                    간결하지만 강력하게. '딸깍' 마법 한 번이면 곧바로.
+                </h2>
+                <div class="row gx-5 align-items-center">
+                    <div class="col-lg-6 mb-5 mb-lg-0">
+                        <iframe class="img-fluid rounded" width="100%" height="800" src="https://www.youtube.com/embed/UuDuANMdSpI?t=2s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="mb-4" style="font-size: 1rem; line-height: 1.5; color: #333;">
+                            YourTube를 사용하는 방법은 간단합니다. 아래 단계를 따라 시작해보세요:
+                        </p>
+                        <ol style="font-size: 1rem; line-height: 1.5; color: #333;">
+                            <li>Chrome 웹 스토어에서 확장을 설치합니다.</li>
+                            <li>설치 후 브라우저 오른쪽 상단의 아이콘을 클릭하여 설정을 엽니다.</li>
+                            <li>알고리즘 생성 옵션을 선택하고 원하는 설정을 입력합니다.</li>
+                            <li>저장 후, 원하는 콘텐츠를 탐색하며 기능을 체험하세요.</li>
+                        </ol>
+                        <p class="mt-4" style="font-size: 1rem; color: #666;">
+                            더 자세한 사용법은 <a href="assets/documents/YourTube.pdf" download>PDF 가이드</a>를 참고해주세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
         <!-- App badge section-->
         <section class="bg-gradient-primary-to-secondary">
             <div class="container px-5">
-             <h2 class="text-center text-white font-alt mb-4">YourTube가 조금 더 궁금한 여러분들을 위해</h2>
+             <h2 class="text-center text-white font-alt mb-4" style = "font-size: 2.5rem;">YourTube가 조금 더 궁금한 여러분들을 위해</h2>
              <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
                     <!-- PDF 다운로드 버튼 -->
                     <a class="me-lg-3 mb-4 mb-lg-0" href="assets/documents/YourTube.pdf" download>
@@ -248,6 +280,7 @@
              </div>
           </div>
         </section>
+
         <!-- Footer-->
         <footer class="bg-black text-center py-5">
             <div class="container px-5">
@@ -261,6 +294,8 @@
                 </div>
             </div>
         </footer>
+
+
         <!-- Feedback Modal-->
         <div class="modal fade" id="feedbackModal" tabindex="-1" aria-labelledby="feedbackModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
