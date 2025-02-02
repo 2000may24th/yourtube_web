@@ -106,10 +106,11 @@
                 </div>
             </div>
         </aside>
+
         <!-- App features section-->
         <section id="features">
             <div class="container px-5">
-                <div class="row gx-5 align-items-center">
+                <div class="row gx-5 align-items-center justify-content-center">
                     <div class="col-lg-8 order-lg-1 mb-5 mb-lg-0">
                         <div class="container-fluid px-5">
                             <div class="row gx-5">
@@ -150,41 +151,19 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 order-lg-0">
-                        <!-- Features section device mockup-->
-                        <div class="features-device-mockup">
-                            <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="circleGradient" gradientTransform="rotate(45)">
-                                        <stop class="gradient-start-color" offset="0%"></stop>
-                                        <stop class="gradient-end-color" offset="100%"></stop>
-                                    </linearGradient>
-                                </defs>
-                                <circle cx="50" cy="50" r="50"></circle></svg
-                            ><svg class="shape-1 d-none d-sm-block" viewBox="0 0 240.83 240.83" xmlns="http://www.w3.org/2000/svg">
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(120.42 -49.88) rotate(45)"></rect>
-                                <rect x="-32.54" y="78.39" width="305.92" height="84.05" rx="42.03" transform="translate(-49.88 120.42) rotate(-45)"></rect></svg
-                            ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
-                            <div class="device-wrapper">
-                                <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                    <div class="screen bg-black">
-                                        <video muted autoplay loop playsinline style="max-width: 100%; height: 100%; object-fit: cover; pointer-events: none;" oncontextmenu="return false;">
-                                            <source src="assets/img/flamingo2.mp4" type="video/mp4" />
-                                        </video>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
-<!-- 가운데 정렬 주석 -->
-<div style="text-align: center; font-size: 0.8rem; line-height: 1.2; margin: 0; color: lightgray;">
-    <br>
-    <br>
-    <p style="margin: 0;">* Kiwi Browser 등 Chromium 기반의 특정 서드파티 브라우저에서 작동합니다.</p>
-    <p style="margin: 0;">** Orion Browser 등 Chromium 기반의 특정 서드파티 브라우저에서 작동합니다.</p>
-</div>
+
+            <!-- 주석 느낌 멘트 -->
+            <div class="container text-center mt-4">
+                <p style="font-size: 0.8rem; color: lightgray;">
+                    * Kiwi Browser 등 Chromium 기반의 특정 서드파티 브라우저에서 작동합니다.<br>
+                    ** Orion Browser 등 Chromium 기반의 특정 서드파티 브라우저에서 작동합니다.
+                </p>
+            </div>
+        </section>
+
+
         </section>
         <!-- Basic features section-->
         <section class="bg-light d-flex align-items-center" style="height: auto;">
@@ -205,33 +184,37 @@
             </div>
         </section>
 
-
         <!-- Call to action section -->
-        <section class="cta" style="position: relative; background: url('assets/img/algorithm.svg') no-repeat center center/cover; height: 100vh;" id="download">
+        <section class="cta" style="position: relative; background: url('assets/img/algorithm.svg') no-repeat center center/cover; height: 60vh; padding: 0;" id="download">
             <!-- 반투명 레이어 -->
             <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5);"></div>
-            <div class="cta-content" style="position: relative; z-index: 1; margin-top: -70px; padding: 10px;">
+            <div class="cta-content" style="position: relative; z-index: 1; display: flex; justify-content: center; align-items: center; text-align: center; height: 100%;">
                 <div class="container px-5">
-                    <h2 class="text-white display-1 lh-1 mb-4">
+                    <h2 class="text-white display-4 lh-1 mb-4">
                         Stop pressing the F5 button.
                         <br />
                         Make your own algorithm.
                     </h2>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill mb-5" href="https://chromewebstore.google.com/detail/yourtube/pacjjjpfcgachdolpdinmmmboogcbkle" target="_blank">Chrome Web Store에서 무료 다운로드</a>
-
-                    <!-- 공지사항을 열고 닫을 수 있는 팝업 -->
-                    <details style="background-color: rgb(60, 60, 60); padding: 15px; border-radius: 5px; cursor: pointer; margin-top: 20px; width: 100%; ">
-                        <summary class="fs-7 text-light" style="font-weight: bold; color: white;">[⚠️공지] YourTube 베타 테스트 서비스 개시 관련(25.01.25)</summary>
-                        <div>
-                            <br>
-                            <p style="color: lightgray; font-size: 0.875rem; line-height: 1;"> 안녕하세요. Team YourTube입니다. </p>
-                            <p style="color: lightgray; font-size: 0.875rem; line-height: 1;"> 공식 런칭에 앞서, 현재 베타 테스트 진행 중입니다. 이에 서버 및 모델 등에 예기치 않은 문제나 오류가 발생할 수 있는 점 양해 바랍니다. </p>
-                            <p style="color: lightgray; font-size: 0.875rem; line-height: 1;"> 최대한 빠르게 개선하여 안정적인 서비스를 제공할 수 있도록 노력하겠습니다. 아울러 소중한 피드백과 많은 관심 부탁드립니다. 감사합니다. </p>
-                        </div>
-                    </details>
+                    <a class="btn btn-outline-light py-3 px-4 rounded-pill mb-4" href="https://chromewebstore.google.com/detail/yourtube/pacjjjpfcgachdolpdinmmmboogcbkle" target="_blank">Chrome Web Store에서 무료 다운로드</a>
                 </div>
             </div>
         </section>
+
+
+        <!-- 공지사항 섹션 -->
+        <section class="announcement" style="background-color: rgb(50, 50, 50); padding: 20px;">
+            <div class="container px-5">
+                <details open style="background-color: rgb(50, 50, 50); padding: 15px; border-radius: 5px; cursor: pointer;">
+                    <summary class="fs-7 text-light" style="font-weight: bold; color: white;">[⚠️공지] YourTube 베타 테스트 서비스 개시 관련(25.01.25)</summary>
+                    <div style="margin-top: 10px;">
+                        <p style="color: lightgray; font-size: 0.875rem; line-height: 1.5;"> 안녕하세요. Team YourTube입니다. </p>
+                        <p style="color: lightgray; font-size: 0.875rem; line-height: 1.5;"> 공식 런칭에 앞서, 현재 베타 테스트 진행 중입니다. 이에 서버 및 모델 등에 예기치 않은 문제나 오류가 발생할 수 있는 점 양해 바랍니다. </p>
+                        <p style="color: lightgray; font-size: 0.875rem; line-height: 1.5;"> 최대한 빠르게 개선하여 안정적인 서비스를 제공할 수 있도록 노력하겠습니다. 아울러 소중한 피드백과 많은 관심 부탁드립니다. 감사합니다. </p>
+                    </div>
+                </details>
+            </div>
+        </section>
+
 
         <!-- Usage section -->
         <section style="background-color: white; padding: 80px 0;" id="guideline">
@@ -242,7 +225,7 @@
                 <div class="mb-5">
                     <iframe class="img-fluid rounded" width="80%" height="80%" style="min-height: 500px;" src="https://www.youtube.com/embed/Z_OGPIqIbfg?t=11" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 </div>
-                <p style="color: lightgray; font-size: 0.875rem; line-height: 2;"> 설명 영상은 추후 제작 후 업로드 예정이오니 하단의 사용 방법 팝업창에서 확인하시기 바랍니다. </p>
+                <p style="color: gray; font-size: 0.875rem; line-height: 2;"> 설명 영상은 추후 제작 후 업로드 예정이오니 하단의 사용 방법 팝업창에서 확인하시기 바랍니다. </p>
                 <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#usageModal">
                     <span class="d-flex align-items-center">
                         <i class="bi bi-info-circle me-2"></i>
@@ -259,24 +242,80 @@
                                 <button class="btn-close btn-close-white" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
                             </div>
                             <div class="modal-body border-0 p-4">
-                                <p class="mb-4" style="font-size: 1.5rem; line-height: 1.5; color: #333;">
-                                <strong>Enjoy YOUR Own YourTube!</strong>
-                                </p>
-                                <ol style="font-size: 1rem; line-height: 1.5; color: #333;">
-                                    <img src="assets/img/how1.png" alt="Step 1" style="max-width: 100%; height: auto; margin-bottom: 10px; line-height: 2.5;" border-radius: 18px;">
-                                    <p>1. Chrome 웹 스토어에서 확장 프로그램을 설치 후 활성화합니다.</p>
-                                    <img src="assets/img/how2.png" alt="Step 1" style="max-width: 100%; height: auto; margin-bottom: 10px; line-height: 2.5;" border-radius: 18px;">
-                                    <p>2. YouTube 웹페이지에 로그인 접속 후 새로고침 버튼(F5)을 누릅니다. 일시적으로 영상이 화면에 표시되지 않습니다.</p>
-                                    <p></p>
-                                    <img src="assets/img/how3.png" alt="Step 1" style="max-width: 100%; height: auto; margin-bottom: 10px; line-height: 2.5;" border-radius: 18px;">
-                                    <p>3. 브라우저의 '확장 프로그램(Chrome 기준 우측 상단)' 기능에서 YourTube를 실행합니다.</p>
-                                    <p>4. '구독 영상 가져오기' 버튼을 누릅니다. 잠시 기다리면 사용자의 구독 영상 정보가 업데이트됩니다.</p>
-                                    <p>5. '카테고리 분류' 버튼을 누릅니다. 분류가 완료되면 자동으로 영상이 그룹으로 묶입니다.</p>
-                                    <p>6. 만약 YouTube 구독 페이지에 변화가 없다면 새로고침 버튼(F5)을 다시 눌러 반영됩니다.</p>
-                                    <p>7. 구독 웹페이지 우측의 '카테고리 설정' 항목에서 사용자가 원하는 카테고리만 선택 가능합니다.</p>
-                                    <p>8. 영상 정보의 실시간 최신화를 지원하지 않으므로 부득이하게 주기적으로 수동 업데이트해야 합니다.</p>
-                                </ol>
-                                <p class="mt-4" style="font-size: 1rem; color: #666;">
+                                <!-- Carousel -->
+                                <div id="usageCarousel" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <!-- Step 1 -->
+                                        <div class="carousel-item active">
+                                            <div class="text-center">
+                                                <img src="assets/img/how1.png" alt="Step 1" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>1.</strong> Chrome 웹 스토어에서 확장 프로그램을 설치 후 활성화합니다.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Step 2 -->
+                                        <div class="carousel-item">
+                                            <div class="text-center">
+                                                <img src="assets/img/how2.png" alt="Step 2" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>2.</strong> YouTube 웹페이지에 로그인 후 새로고침 버튼(F5)을 누릅니다.</p>
+                                                <p style="font-size: 1rem; color: #666;">(일시적으로 영상이 표시되지 않을 수 있습니다.)</p>
+                                            </div>
+                                        </div>
+                                        <!-- Step 3 -->
+                                        <div class="carousel-item">
+                                            <div class="text-center">
+                                                <img src="assets/img/how3.png" alt="Step 3" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>3.</strong> 브라우저의 '확장 프로그램' 기능에서 YourTube를 실행합니다.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Step 4 -->
+                                        <div class="carousel-item">
+                                            <div class="text-center">
+                                                <img src="assets/img/how4.png" alt="Step 4" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>4.</strong> '구독 영상 가져오기' 버튼을 누릅니다.</p>
+                                                <p style="font-size: 1rem; color: #666;">(잠시 기다리면 구독 영상 정보가 업데이트됩니다.)</p>
+                                            </div>
+                                        </div>
+                                        <!-- Step 5 -->
+                                        <div class="carousel-item">
+                                            <div class="text-center">
+                                                <img src="assets/img/how5.png" alt="Step 5" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>5.</strong> '카테고리 분류' 버튼을 누르면 자동으로 영상이 그룹으로 묶입니다.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Step 6 -->
+                                        <div class="carousel-item">
+                                            <div class="text-center">
+                                                <img src="assets/img/how6.png" alt="Step 6" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>6.</strong> YouTube 구독 페이지에 변화가 없으면 새로고침(F5)을 누릅니다.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Step 7 -->
+                                        <div class="carousel-item">
+                                            <div class="text-center">
+                                                <img src="assets/img/how7.png" alt="Step 7" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>7.</strong> '카테고리 설정'에서 원하는 카테고리만 선택할 수 있습니다.</p>
+                                            </div>
+                                        </div>
+                                        <!-- Step 8 -->
+                                        <div class="carousel-item">
+                                            <div class="text-center">
+                                                <img src="assets/img/how8.png" alt="Step 8" class="img-fluid rounded" style="max-width: 100%; height: auto; margin-bottom: 15px;">
+                                                <p style="font-size: 1.2rem; color: #333;"><strong>8.</strong> 영상 정보가 실시간으로 업데이트되지 않으므로 주기적으로 수동 업데이트해야 합니다.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Navigation Buttons -->
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#usageCarousel" data-bs-slide="prev">
+                                        <i class="bi bi-arrow-left-circle-fill" style="font-size: 2rem; color: #333;"></i>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#usageCarousel" data-bs-slide="next">
+                                        <i class="bi bi-arrow-right-circle-fill" style="font-size: 2rem; color: #333;"></i>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
+                                <!-- Additional Info -->
+                                <p class="mt-4 text-center" style="font-size: 1rem; color: #666;">
                                     🚨더 자세한 사용법이 궁금하거나 오류가 발생할 경우 개발자에게 문의 부탁드립니다!🚨
                                 </p>
                             </div>
