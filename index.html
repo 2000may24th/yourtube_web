@@ -381,7 +381,7 @@
 		
  		                   <!-- Email address input -->
  		                   <div class="form-floating mb-3">
- 		                       <input class="form-control" id="email" name="entry.782385800," type="email" placeholder="name@example.com" required />
+ 		                       <input class="form-control" id="email" name="entry.2118393670," type="email" placeholder="name@example.com" required />
  		                       <label for="email">이메일 주소</label>
    		                     <div class="invalid-feedback">이메일 주소 입력은 필수입니다.</div>
    		                 </div>
@@ -404,6 +404,7 @@
   		                  <div class="d-none" id="submitSuccessMessage">
   		                      <div class="text-center mb-3">
   		                          <div class="fw-bolder">피드백이 성공적으로 제출되었습니다!</div>
+					      <div class="text-muted">수집한 개인정보는 관련 법령에 의거, 회신 이후 즉시 파기됩니다.</div>
   		                      </div>
   		                  </div>
 		
@@ -433,7 +434,7 @@
 		            setTimeout(() => {
 		                document.getElementById("submitSuccessMessage").classList.add("d-none");
 		                document.getElementById("contactForm").reset();
-		            }, 2000);
+		            }, 3000);
 		        });
 		    });
 		</script>
